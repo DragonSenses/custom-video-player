@@ -5,14 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Custom Video Player</title>
-    <link
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      rel="stylesheet"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/progress.css" />
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/progress.css"/>
   </head>
   <body>
     <h1></h1>
@@ -25,16 +20,18 @@
     ></video>
     <div class="controls">
       <button class="btn" id="play">
-        <!-- fontawesome icons -->
-        <i class="fa fa-play fa-2x"></i>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+          <path d="M12.75 4a.75.75 0 00-.75.75v10.5c0 .414.336.75.75.75h.5a.75.75 0 00.75-.75V4.75a.75.75 0 00-.75-.75h-.5zM17.75 4a.75.75 0 00-.75.75v10.5c0 .414.336.75.75.75h.5a.75.75 0 00.75-.75V4.75a.75.75 0 00-.75-.75h-.5zM3.288 4.819A1.5 1.5 0 001 6.095v7.81a1.5 1.5 0 002.288 1.277l6.323-3.906a1.5 1.5 0 000-2.552L3.288 4.819z" />
+        </svg>
       </button>
       <button class="btn" id="stop">
-        <i class="fa fa-stop fa-2x"></i>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+          <path d="M5.25 3A2.25 2.25 0 003 5.25v9.5A2.25 2.25 0 005.25 17h9.5A2.25 2.25 0 0017 14.75v-9.5A2.25 2.25 0 0014.75 3h-9.5z" />
+        </svg>
       </button>
       <input type="range" id="progress" class="progress" min="0" max="100" step="0.1"
         value="0">
       <span class="timestamp" id="timestamp">00:00</span>
-      
     </div>
     <script src="script.js"></script>
   </body>

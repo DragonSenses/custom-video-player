@@ -45,9 +45,11 @@ h1 {
 }
 
 .controls .btn {
-  border: 0;
-  background: transparent;
+  /* border: 0; */
+  background: #3071a9;
   cursor: pointer;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 .controls .fa-play {
