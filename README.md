@@ -1,6 +1,5 @@
 # custom-video-player
-
-Custom video player using HTML5 `video` element and it's JavaScript API to customize the design of the player. 
+  Custom video player using HTML5 `video` element and it's JavaScript API to customize the design of the player. 
 
 I use this as a template for websites that plays videos. 
 
@@ -24,11 +23,9 @@ To change the video you want to play, find the video's full directory name (or r
 
 # Specifications
 
-- [ ] Play/Pause
-- [ ] Stop
-- [ ] Video progress bar
-- [ ] Set progress bar time
-- [ ] Display time in mins and seconds
-- [ ] Display customized video player, styled with CSS
-
- 
+- [x] Play/Pause functionality
+- [x] Stop (reset then pause) functionality
+- [x] Video progress bar 
+- [x] Set progress bar time
+- [x] Display time in mins and seconds
+- [x] Display customized video player, styled with CSS
